@@ -82,24 +82,3 @@ export const projects = [
         details: "Built a relational database structure to handle courses, deadlines, and automated reminders while maintaining a clean, accessible UI.",
     },
 ];
-export const certificates = [
-  {
-    title: "Software Engineering Virtual Internship",
-    issuer: "JPMorgan Chase & Co.",
-    date: "2023",
-    // We use %20 to safely represent spaces in the file name for the URL
-    link: "/Certificate/JPMorgan%20SEJS.pdf", 
-  },
-  {
-    title: "Software Engineering Virtual Internship",
-    issuer: "Skyscanner",
-    date: "2023",
-    link: "/Certificate/Skyscanner%20SEJS.pdf",
-  },
-  {
-    title: "Achievement Certificate",
-    issuer: "Manthan Patil",
-    date: "2024",
-    link: "/Certificate/Certificate%20of%20Manthan%20Patil.pdf",
-  }
-];
