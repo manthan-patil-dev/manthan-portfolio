@@ -94,10 +94,14 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-12 flex items-center gap-4">
           <span className="text-blue-500 font-mono text-xl">04.</span> Certifications & Awards
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {certificates.map((cert, index) => (
             <div key={index} className="bg-slate-900/50 p-6 rounded-xl border border-slate-800 hover:border-blue-500/50 transition-colors flex flex-col h-full">
-              <Award className="text-blue-500 mb-4" size={32} />
+              {cert.image ? (
+                <img src={cert.image} alt={cert.title} className="h-24 object-contain mb-4" />
+              ) : (
+                <Award className="text-blue-500 mb-4" size={32} />
+              )}
               <h3 className="text-lg font-bold text-white mb-2">{cert.title}</h3>
               <p className="text-slate-400 text-sm mb-4 flex-grow">{cert.issuer}</p>
               <div className="flex items-center justify-between mt-auto pt-4 border-t border-slate-800/50">

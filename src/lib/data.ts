@@ -89,18 +89,21 @@ export const certificates = [
     title: "Software Engineering Virtual Internship",
     issuer: "JPMorgan Chase & Co.",
     date: "2023",
-    link: "https://your-certificate-link-here.com", // Replace with your actual certificate URL
+        link: "https://your-certificate-link-here.com", // Replace with your actual certificate URL
+        image: "/Certificate/cert1.svg",
   },
   {
     title: "Cybersecurity Analyst Virtual Internship",
     issuer: "MasterCard",
     date: "2023",
-    link: "https://your-certificate-link-here.com",
+        link: "https://your-certificate-link-here.com",
+        image: "/Certificate/cert2.svg",
   },
   {
     title: "Technions Hackathon 2026",
     issuer: "Hackathon Participant",
     date: "2026",
-    link: "https://your-certificate-link-here.com",
+        link: "https://your-certificate-link-here.com",
+        image: "/Certificate/cert3.svg",
   }
 ];

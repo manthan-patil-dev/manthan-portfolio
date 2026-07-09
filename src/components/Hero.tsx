@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 import { TypeAnimation } from "react-type-animation";
 import { personalInfo } from "@/lib/data";
+import { resumeUrl } from "@/data/portfolio";
 import { Mail } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
@@ -50,7 +51,7 @@ export default function Hero() {
                     <a href="#projects" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
                         View Projects
                     </a>
-                    <a href="/resume.pdf" className="border border-gray-600 hover:border-gray-400 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                    <a href={resumeUrl} className="border border-gray-600 hover:border-gray-400 text-white px-6 py-3 rounded-lg font-medium transition-colors">
                         Download Resume
                     </a>
                 </div>

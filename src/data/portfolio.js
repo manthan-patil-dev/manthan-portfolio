@@ -108,4 +108,5 @@ export const projects = [
     },
 ];
 
-export const resumeUrl = "/resume/Manthan_Patil_Resume.pdf";
+// Use root-level resume.pdf for simplicity. Place the actual PDF at `public/resume.pdf`.
+export const resumeUrl = "/resume.pdf";
